@@ -75,6 +75,7 @@ img {
     margin-top: 3rem;
 }
 
+
 /* LESSONS SECTION */
 .lessons .col {
     width: 50%;
@@ -127,3 +128,54 @@ img {
 /************************************************
     SOLUZIONE RESPONSIVE
  ************************************************/
+
+
+ @media screen and (max-width: 1140px) {
+
+    .container {
+        width: 100%;
+        padding: 0 0;
+    }
+ }
+ 
+ @media screen and (max-width: 480px) {
+
+    
+    .container {
+      padding: 0 80px;
+    }
+
+    .row {
+        display: block;
+    }
+
+    .col {
+        min-width: 100%;
+    }
+
+    .text {
+        margin-bottom: 15%;
+    }
+
+    .steps {
+        margin: 0;
+    }
+
+    .why-us {
+        background-color: black;
+        margin-bottom: 0;
+    }
+
+    li:last-child {
+        margin-bottom: 0;
+        padding-bottom: 25%;
+    }
+
+    .why-us img {
+        margin-bottom: 25%;
+    }
+
+    .why-us h2 {
+        padding-top: 25%;
+    }
+}
